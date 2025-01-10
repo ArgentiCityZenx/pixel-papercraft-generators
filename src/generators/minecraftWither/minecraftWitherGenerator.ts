@@ -14,7 +14,7 @@ import { type Generator } from "@genroot/builder/modules/generator";
 import witherTexture from "./instructions/wither.png";
 import backgroundImage from "./images/Background.png";
 import foldsImage from "./images/Folds.png";
-import thumbnailImage from "./images/Thumbnail.png";
+import thumbnailImage from "./images/Thumbnail.jpeg";
 
 const id = "minecraft-wither";
 
@@ -22,7 +22,7 @@ const name = "Minecraft Wither";
 
 const history: HistoryDef = [
   "01 Aug 2021 Hannibanni - Created.",
-  "12 Oct 2024 Argenticityzen14 - Added PPC Footer and Thumbnail."
+  "10 Jan 2025 Argenticityzen14 - Added PPC Footer and Thumbnail."
 ];
 
 const instructions: InstructionsDef = `
@@ -284,33 +284,33 @@ const script: ScriptDef = (generator: Generator) => {
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 4, h: 2 },
-    { x: 160, y: 359, w: 32, h: 16 }
+    { x: 160, y: 554, w: 32, h: 16 }
   ); //Frnot Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 37, y: 22, w: 4, h: 2 },
-    { x: 160, y: 375, w: 32, h: 16 }
+    { x: 160, y: 570, w: 32, h: 16 }
   ); //Down Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 22, w: 4, h: 2 },
-    { x: 160, y: 343, w: 32, h: 16 }
+    { x: 160, y: 538, w: 32, h: 16 }
   ); //Top Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 4, h: 2 },
-    { x: 240, y: 375, w: 32, h: 16 },
+    { x: 240, y: 570, w: 32, h: 16 },
     { rotateLegacy: 180.0 }
   ); //Back Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 24, y: 24, w: 2, h: 2 },
-    { x: 144, y: 359, w: 16, h: 16 }
+    { x: 144, y: 554, w: 16, h: 16 }
   ); //Left Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 24, y: 24, w: 2, h: 2 },
-    { x: 192, y: 359, w: 16, h: 16 }
+    { x: 192, y: 554, w: 16, h: 16 }
   ); //Right Side
   generator.drawTextureLegacy(
     witherSkinId,
@@ -378,33 +378,33 @@ const script: ScriptDef = (generator: Generator) => {
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 4, h: 2 },
-    { x: 319, y: 358, w: 32, h: 16 }
+    { x: 319, y: 553, w: 32, h: 16 }
   ); //Front Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 37, y: 22, w: 4, h: 2 },
-    { x: 319, y: 373, w: 32, h: 16 }
+    { x: 319, y: 568, w: 32, h: 16 }
   ); //Down Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 4, h: 2 },
-    { x: 319, y: 342, w: 32, h: 16 }
+    { x: 319, y: 537, w: 32, h: 16 }
   ); //Top Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 4, h: 2 },
-    { x: 303, y: 374, w: 32, h: 16 },
+    { x: 303, y: 569, w: 32, h: 16 },
     { rotateLegacy: 180.0 }
   ); //Back Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 2, h: 2 },
-    { x: 303, y: 358, w: 16, h: 16 }
+    { x: 303, y: 553, w: 16, h: 16 }
   ); //Left Side
   generator.drawTextureLegacy(
     witherSkinId,
     { x: 26, y: 24, w: 2, h: 2 },
-    { x: 351, y: 358, w: 16, h: 16 }
+    { x: 351, y: 553, w: 16, h: 16 }
   ); //Right Side
   generator.drawTextureLegacy(
     witherSkinId,
